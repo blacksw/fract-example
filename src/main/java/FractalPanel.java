@@ -122,7 +122,7 @@ class GraphWindow extends JFrame
     private Container c;
     public GraphWindow()
     {
-        super("Fractal Maker");
+        super("My Fractal Maker"); //Uber Commet here!!!!
         c = getContentPane();
         c.add(new FractalPanel("Kosh", Color.white, Color.darkGray));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
